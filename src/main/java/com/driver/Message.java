@@ -25,6 +25,7 @@ public class Message {
     public String content(String content)
     {
        this.content=content;
+        return content;
     }
     public Date getTimestamp()
     {
